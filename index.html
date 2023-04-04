@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="question"></h1>
+        <div class="options">
+            <button class="option-btn">Opção 1</button>
+            <button class="option-btn">Opção 2</button>
+            <button class="option-btn">Opção 3</button>
+            <button class="option-btn">Opção 4</button>
+        </div>
+        <div class="teams">
+            <div class="team-container">
+                <div id="team-blue" class="team"></div>
+                <span class="counter" id="blue-counter">0/10</span>
+            </div>
+            <div class="team-container">
+                <div id="team-red" class="team"></div>
+                <span class="counter" id="red-counter">0/10</span>
+            </div>
+        </div>
+        <div class="correct-btns">
+            <button id="blue-correct" class="correct-btn blue-correct">Azul acertou</button>
+            <button id="red-correct" class="correct-btn red-correct">Vermelho acertou</button>
+            <button id="no-one-correct" class="btn">Ninguém Acertou</button>
+        </div>
+
+        <div>
+      
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
